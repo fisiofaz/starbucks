@@ -1,0 +1,19 @@
+.area2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area2 .area2_img1 {
+    background-image: url('../img/f4.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 35rem;
+}
+
+.area2 .area2_img2 {
+    background-image: url('../img/f3.jpg');
+    background-position: center;
+    background-size: cover;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}

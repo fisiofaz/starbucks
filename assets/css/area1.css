@@ -3,18 +3,18 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-.area1_content {
+.area1_content, .area2_content {
     display: flex;
     flex-direction: column;
     padding: 8rem;
 }
 
-.area1_content span {
+.area1_content span, .area2_content span {
     font-size: 2rem;
     margin-bottom: 3rem;
 }
 
-.area1_content p {
+.area1_content p, .area2_content p {
     font-size: 1.8rem;
     margin-bottom: 5rem;
 }
