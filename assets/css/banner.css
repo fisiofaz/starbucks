@@ -5,13 +5,7 @@
     padding: 15rem 0 5rem;
 }
 
-.container h1 {
-    font-size: 9rem;
-    font-weight: 700;
-    font-family: 'Oswald', sans-serif;
-    line-height: 10rem; 
-}
-
+ 
 .container p {
     color: var(--text-secundary);
     margin-top: 3rem;

@@ -20,3 +20,40 @@ body {
     max-width: 114rem;
     margin: auto;
 }
+
+h1 {
+    font-size: 9rem;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    line-height: 10rem; 
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    line-height: 6.2rem;
+    text-transform:capitalize;
+    margin: 1rem 0 2rem;
+}
+ .bar {
+    width: 15rem;
+    height: 2.2rem;
+    background: var(--bg-primary);
+}
+
+.btn {
+    display: inline-block;
+    border: 2px solid var(--bd-color-secondary);
+    padding: 1rem 3rem;
+    border-radius: 3px;
+    text-decoration: none;
+    color: var(--text-secundary);
+    width: 30%;
+    font-size: 1.6rem;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: var(--bd-color-secondary);
+}

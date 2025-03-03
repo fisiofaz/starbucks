@@ -1,0 +1,35 @@
+.area1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area1_content {
+    display: flex;
+    flex-direction: column;
+    padding: 8rem;
+}
+
+.area1_content span {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.area1_content p {
+    font-size: 1.8rem;
+    margin-bottom: 5rem;
+}
+
+.area1 .area1_img1 {
+    background-image: url('../img/f2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 35rem;
+}
+
+.area1 .area1_img2 {
+    background-image: url('../img/f1.jpg');
+    background-position: center;
+    background-size: cover;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
