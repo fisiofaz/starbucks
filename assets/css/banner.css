@@ -6,7 +6,7 @@
 }
 
  
-.container p {
+p {
     color: var(--text-secundary);
     margin-top: 3rem;
     font-weight: 400;
