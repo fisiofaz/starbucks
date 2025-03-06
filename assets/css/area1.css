@@ -3,7 +3,7 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-.area1_content, .area2_content, .area3_content {
+.area1_content, .area2_content, .area3_content, .area4_content {
     display: flex;
     flex-direction: column;
     padding: 8rem;
@@ -14,7 +14,7 @@
     margin-bottom: 3rem;
 }
 
-.area1_content p, .area2_content p, .area3_content p {
+.area1_content p, .area2_content p, .area3_content p, .area4_content p {
     font-size: 1.8rem;
     margin-bottom: 5rem;
 }

@@ -1,0 +1,20 @@
+.area4 {
+    display: grid;
+    grid-template-columns: 52rem 1fr;
+    background-color: var(--bg-terceary);
+    padding: 8rem 0;
+}
+
+.area4 .area4_img1 {
+    background-image: url('../img/bg3.jpg');
+    background-position: left;
+}
+
+.area4 .area4_content {
+    padding: 15 rem 0;       
+}
+
+
+.button2 {
+    width: 50%;
+}

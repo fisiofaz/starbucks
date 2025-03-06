@@ -9,6 +9,7 @@ body {
     font-size: 62.5%;
     --bg-primary: #117050;
     --bg-secondary: #333333;
+    --bg-terceary: #e8e9ee;
     --text-primary: #a8f8dd;
     --text-secundary: #333333;
     --text-terceary: ##a8f8dd;
@@ -49,7 +50,7 @@ h2 {
     border-radius: 3px;
     text-decoration: none;
     color: var(--text-secundary);
-    width: 40%;
+    width: 33%;
     font-size: 1.6rem;
 }
 
