@@ -1,0 +1,12 @@
+footer {
+    background-color: var(--bd-color-secondary);
+    color: var(--text-terceary);
+    padding: 8rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+footer .footer_parg {
+    margin-bottom: 8rem;
+}
+
